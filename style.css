@@ -29,6 +29,24 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/* Responsive nav toggle button */
+.nav-toggle{
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+nav.nav{
+    display: block;
+}
+nav .nav-links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
 @media screen and (max-width:768px){
     .nav-toggle{
         display: block;
@@ -59,8 +77,8 @@ nav a:hover{
     }
     nav .nav-links a{
         display: block;
-        padding: 8px 10px;
-        color: #fff;
+        padding: 8px 12px;
+        color: #FFF3E0;
     }
 }
 
